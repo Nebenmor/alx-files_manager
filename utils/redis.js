@@ -1,8 +1,3 @@
-/* 
-Creates Redis Utils
-sets up connection
-*/
-
 const redis = require('redis');
 const { promisify } = require('util');
 
