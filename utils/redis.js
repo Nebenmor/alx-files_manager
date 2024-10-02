@@ -1,6 +1,9 @@
+//Creates Redis Utils
+
 const redis = require('redis');
 const { promisify } = require('util');
 
+//Setting up connection
 class RedisClient {
   constructor() {
     this.client = redis.createClient();
